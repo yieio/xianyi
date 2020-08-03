@@ -1,0 +1,65 @@
+<!--miniprogram/pages/course.wxml-->
+<view class="container">
+	<cu-custom bgColor="bg-gradual-pink" isBack="{{true}}">
+		<view slot="backText"></view>
+		<view slot="content">课程表</view>
+	</cu-custom>
+	<view class="cu-timeline">
+		<!-- <view class="cu-time">01-11 
+		</view> -->
+		<view class="cu-item cur text-cyan cuIcon-time">
+			<view class="" style="margin:6rpx 0 20rpx 0;">
+				<view class="cu-capsule radius">
+					<view class="cu-tag bg-cyan text-xl">2020/07/04</view>
+					<view class="cu-tag line-cyan text-df">后天 星期日</view>
+				</view>
+			</view>
+
+			<view class="content bg-cyan" style="line-height:1.8">
+				<view>
+					<text class="text-df">09:00-12:00 @郑焕堂C318</text>
+				</view>
+				<view>
+					<text class="text-xl">组织行为学</text>
+					<text class="text-df"> by 王永丽</text>
+				</view>
+			</view>
+
+		</view>
+
+	</view>
+
+
+	<view class="cu-timeline">
+		<!-- <view class="cu-time">01-11 
+		</view> -->
+		<view class="cu-item cur text-cyan cuIcon-time">
+			<view class="" style="margin:6rpx 0 20rpx 0;">
+				<view class="cu-capsule radius">
+					<view class="cu-tag bg-cyan text-xl">2020/07/04</view>
+					<view class="cu-tag line-cyan text-df">后天 星期日</view>
+				</view>
+			</view>
+
+			<view class="bg-blue content" style="line-height:1.8;">
+				<view>
+					<text class="text-df">09:00-12:00 @郑焕堂C318</text>
+				</view>
+				<view>
+					<text class="text-xl">数据模型与决策</text>
+					<text class="text-df"> by 黄老师</text>
+				</view>
+			</view>
+			<view class="bg-cyan content" style="line-height:1.8;">
+				<view>
+					<text class="text-df">09:00-12:00 @郑焕堂C318</text>
+				</view>
+				<view>
+					<text class="text-xl">组织行为学</text>
+					<text class="text-df"> by 王永丽</text>
+				</view>
+			</view>
+		</view>
+
+	</view>
+</view>

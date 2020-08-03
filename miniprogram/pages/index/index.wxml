@@ -1,0 +1,74 @@
+<!--index.wxml-->
+
+<view class="container">
+<cu-custom bgColor="" isBack="{{false}}"><view slot="backText"></view><view slot="content"></view></cu-custom>
+
+<view class="cu-avatar round lg my-avatar" style="background-image:url(https://ossweb-img.qq.com/images/lol/web201310/skin/big10006.jpg); top:{{StatusBar+6}}px" ></view>
+
+<view class="latest-course-container">
+<view>
+ <view>
+		<view style="margin-left:30rpx;">
+    <view><text class="text-white text-sl">2020</text></view>
+			<text class="text-white text-xxl">05月22日</text>
+			<text class="text-white text-df "> 后天 星期日</text>
+		</view>
+
+	</view>
+	<view class="cu-card case opacity09">
+		<view class="cu-item shadow" style="padding:30rpx; line-height:1.8">
+			<view class="course-item">
+				<view>
+					<text class="text-grey text-df">09:00-12:00 @郑焕堂C318</text>
+				</view>
+				<view>
+					<text class="text-black text-xl">组织行为学</text>
+					<text class="text-grey text-df"> by 王永丽</text>
+				</view>
+        <view></view>
+			</view>
+
+			<view style="margin-top:20rpx;">
+				<view>
+					<text class="text-grey text-df">14:00-17:00 @郑焕堂C318</text>
+				</view>
+				<view>
+					<text class="text-black text-xl">管理经济学</text>
+					<text class="text-grey text-df"> by 李老师</text>
+				</view>
+			</view>
+		</view>
+
+	</view>
+</view>
+</view>
+	
+  <view class="cu-bar tabbar the-tabbar">
+    <view class="action">
+      <view class="cuIcon-cu-image">
+        <image src="/imgs/course-w.svg"></image>
+      </view>
+      <view class="text-green"></view>
+    </view>
+    <view class="action">
+      <view class="cuIcon-cu-image">
+        <image src="/imgs/classmate-w.svg"></image>
+      </view>
+      <view class="text-gray"></view>
+    </view>
+    <view class="action">
+      <view class="cuIcon-cu-image">
+        <image src="/imgs/date-w.svg"></image>
+        <!-- <view class="cu-tag badge">1</view> -->
+      </view>
+      <view class="text-gray"></view>
+    </view>
+    <view class="action">
+      <view class="cuIcon-cu-image">
+        <image src="/imgs/my-w.svg"></image>
+        <!-- <view class="cu-tag badge"></view> -->
+      </view>
+      <view class="text-gray"></view>
+    </view>
+  </view>
+</view>
